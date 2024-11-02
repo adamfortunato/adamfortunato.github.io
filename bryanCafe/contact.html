@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Bryan's Café</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="navigation">
+        <a href="index.html"><img src="images/logo.png" alt="Bryan's Café Logo"></a>
+        <a href="Menu.html">Menu</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+    <div class="main">
+        <h1>Contact Us</h1>
+        <form id="enquiryForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" required>
+ <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="messageSubject">Message Subject:</label>
+            <input type="text" id="messageSubject" required>
+            <label for="messageBody">Message Body:</label>
+            <textarea id="messageBody" required></textarea>
+            <button type="submit">Send Enquiry</button>
+            <p id="enquiryResponse"></p>
+        </form>
+        <h2>Branches</h2>
+        <div id="branches"></div>
+    </div>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> Bryan's Café</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="xml/branches.js"></script>
+</body>
+</html>

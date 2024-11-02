@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "menu.dtd">
+<menu>
+    <item category="Meals">
+        <name>Beetroot and Feta Salad</name>
+        <price>$15.00</price>
+        <description>Suitable for vegetarians, made with fresh beetroot</description>
+        <image>beetroot_feta_salad.jpg</image>
+    </item>
+    <item category="Meals">
+        <name>Sourdough Rye Sandwich</name>
+        <price>$18.00</price>
+        <description>Cheese and salad sandwich made with organic, sourdough rye bread</description>
+        <image>sourdough_sandwich.jpg</image>
+    </item>
+    <!-- Add more menu items here -->
+    <item category="Beverages">
+        <name>Coffee</name>
+        <price>$3.50</price>
+        <description>For coffee, please inform the staff of the coffee type</description>
+        <image>coffee.jpg</image>
+    </item>
+    <item category="Beverages">
+        <name>Soda</name>
+        <price>$3.00</price>
+        <description></description>
+        <image>soda.jpg</image>
+    </item>
+    <!-- Add more beverage items here -->
+</menu>
